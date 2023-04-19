@@ -30,4 +30,6 @@ public class Calculadora {
         double raiz = Math.sqrt(radicando);
         return raiz;
     }
+
+    //...
 }
