@@ -9,7 +9,10 @@ class CalculadoraTest {
     // Definimos el objeto para usarlo en todos los tests
     static Calculadora miCalculadora;
 
-
+    @BeforeAll
+    public static void setUpClass(){
+        miCalculadora = new Calculadora();
+    }
 
     @Test
     @DisplayName("Multiplica dos números")
